@@ -7,6 +7,7 @@
 
 # Charging
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.powershare@1\.0-service\.oplus_lahaina    u:object_r:hal_lineage_powershare_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.kscope\.chgctrl@1\.0-service\.oplus_lahaina        u:object_r:hal_chargecontrol_default_exec:s0
 
 # Display
 /dev/oplus_display                                                                         u:object_r:graphics_device:s0
