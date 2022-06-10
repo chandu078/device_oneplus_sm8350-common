@@ -495,6 +495,15 @@ ndk::ScopedAStatus Vibrator::perform(Effect effect, EffectStrength es, const std
             ledVib.write_value(LED_DEVICE "/activate", "1");
             ledVib.write_value(LED_DEVICE "/activate", "0");
             break;
+        case Effect::TICK:
+            ledVib.write_value(LED_DEVICE "/duration", "1");
+            ledVib.write_value(LED_DEVICE "/state", "1");
+            ledVib.write_value(LED_DEVICE "/activate", "1");
+            ledVib.write_value(LED_DEVICE "/duration", "30");
+            ledVib.write_value(LED_DEVICE "/state", "1");
+            ledVib.write_value(LED_DEVICE "/activate", "1");
+            ledVib.write_value(LED_DEVICE "/activate", "0");
+            break;
         case Effect::HEAVY_CLICK:
             ledVib.write_value(LED_DEVICE "/duration", "1");
             ledVib.write_value(LED_DEVICE "/state", "1");
@@ -542,7 +551,7 @@ ndk::ScopedAStatus Vibrator::perform(Effect effect, EffectStrength es, const std
 
 ndk::ScopedAStatus Vibrator::getSupportedEffects(std::vector<Effect>* _aidl_return) {
     if (ledVib.mDetected) {
-        *_aidl_return = {Effect::CLICK, Effect::DOUBLE_CLICK, Effect::HEAVY_CLICK};
+        *_aidl_return = {Effect::CLICK, Effect::DOUBLE_CLICK, Effect::TICK, Effect::HEAVY_CLICK};
     } else {
 #ifdef TARGET_SUPPORTS_OFFLOAD
         *_aidl_return = {Effect::CLICK, Effect::DOUBLE_CLICK, Effect::TICK, Effect::THUD,
