@@ -1,1 +1,2 @@
+vendor_hal_attribute(dms)
 vendor_hal_attribute(oplusSensor)
