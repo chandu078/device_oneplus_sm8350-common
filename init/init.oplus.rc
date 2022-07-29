@@ -8,6 +8,10 @@ on early-init
     # Oplus audio modules
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules mmc_core mmc_block sdhci sdhci-pltfm sdhci-msm tfa98xx-v6_dlkm
 
+on post-fs
+    # System Vibration
+    chown system system /sys/devices/platform/soc/88c000.i2c/i2c-6/6-005a/leds/vibrator/level
+
 on fs
     # Update touchpanel firmware in case we ship newer firmware in /odm
     write /proc/touchpanel/tp_fw_update 0
@@ -39,8 +43,18 @@ on boot
     chown system system /sys/kernel/oplus_display/notify_fppress
     chown system system /sys/kernel/oplus_display/panel_serial_number
 
+    # Measured FPS
+    chown system system /sys/class/drm/sde-crtc-0/measured_fps
+
+    # Hyper Touch
+    chown system system /proc/touchpanel/game_switch_enable
+
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
+
+    # TP Edge Touch Limit
+    chown system system /proc/touchpanel/oplus_tp_direction
+    write /proc/touchpanel/oplus_tp_direction 0
 
 on property:ro.boot.prjname=*
     # Display
