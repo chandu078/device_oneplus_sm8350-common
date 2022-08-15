@@ -1,0 +1,14 @@
+//
+// Copyright (C) 2022 The Nameless-AOSP Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+java_library {
+    name: "oplus-fwk.lahaina",
+    installable: true,
+
+    srcs: [
+        "src/**/*.aidl",
+        "src/**/*.java",
+    ],
+}

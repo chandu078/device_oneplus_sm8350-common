@@ -81,7 +81,9 @@ persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
+vendor.camera.algo.jpeghwencode=0
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
+vendor.camera.aux.packagelist=com.oplus.camera
 
 # Chipset
 ro.soc.manufacturer=Qualcomm

@@ -15,6 +15,10 @@ persist.vendor.bluetooth.modem_nv_support=true
 ro.vendor.display.sensortype=2
 vendor.display.primary_mixer_stages=9
 
+# Google Lens
+ro.com.google.lens.oem_camera_package=com.oplus.camera
+ro.com.google.lens.oem_image_package=com.oneplus.gallery
+
 # Media
 ro.odm.build.media_performance_class=30
 vendor.media.vpp.enable=0

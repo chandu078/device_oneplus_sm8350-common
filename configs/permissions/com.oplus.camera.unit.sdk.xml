@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Nameless-AOSP Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<permissions>
+    <library name = "com.oplus.camera.unit.sdk"
+        file = "/system_ext/framework/com.oplus.camera.unit.sdk.jar" />
+</permissions>

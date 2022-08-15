@@ -1,0 +1,5 @@
+# OplusResourceManagerService
+OplusResourceManagerService     u:object_r:oem_service:s0
+
+# Oplusoiface
+oplusoiface                     u:object_r:oem_service:s0
