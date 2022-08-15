@@ -11,6 +11,14 @@ persist.vendor.cne.feature=1
 # Charging
 ro.charger.enable_suspend=1
 
+# Camera
+persist.camera.privapp.list=com.oplus.camera
+persist.vendor.camera.privapp.list=com.oplus.camera
+ro.oplus.system.camera.name=com.oplus.camera
+ro.oplus.system.camera.flashlight=com.oplus.motor.flashlight
+ro.oplus.camera.video_beauty.prefix=oplus.video.beauty.
+ro.oplus.camera.video.beauty.switch=oplus.switch.video.beauty
+
 # DPM
 persist.vendor.dpm.feature=11
 
