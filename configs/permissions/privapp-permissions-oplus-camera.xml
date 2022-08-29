@@ -10,10 +10,12 @@
         <permission name="android.permission.UPDATE_DEVICE_STATS" />
         <permission name="android.permission.WRITE_MEDIA_STORAGE" />
         <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="oplus.permission.OPLUS_COMPONENT_SAFE" />
      </privapp-permissions>
 
     <privapp-permissions package="com.oneplus.gallery">
         <permission name="android.permission.WRITE_MEDIA_STORAGE" />
         <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="oplus.permission.OPLUS_COMPONENT_SAFE" />
     </privapp-permissions>
 </permissions>
