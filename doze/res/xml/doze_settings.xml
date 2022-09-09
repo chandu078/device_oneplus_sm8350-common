@@ -29,7 +29,7 @@
         android:key="doze_enable"
         android:title="@string/ambient_display_enable_title" />
 
-    <SwitchPreference
+    <org.nameless.custom.preference.SwitchPreference
         android:key="always_on_display"
         android:disableDependentsState="true"
         android:title="@string/ambient_display_always_on_title"
