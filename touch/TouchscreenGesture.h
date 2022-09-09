@@ -70,7 +70,7 @@ class TouchscreenGesture : public ITouchscreenGesture {
             {kGestureLeftVee, "Right arrow"},
             {kGestureRightVee, "Left arrow"},
             {kGestureCircle, "Letter O"},
-            {kGestureDoubleSwipe, "Two fingers down swipe"},
+            {kGestureDoubleSwipe, "Two finger down swipe"},
             {kGestureLeftToRight, "One finger right swipe"},
             {kGestureRightToLeft, "One finger left swipe"},
             {kGestureUpToDown, "One finger down swipe"},
