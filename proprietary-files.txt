@@ -1098,7 +1098,7 @@ system_ext/etc/permissions/privapp-com.dolby.daxservice.xml|e61ed4d4cbdf54dee613
 system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|43c610f41061f49959ce07b26c60427b8767e535
 system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|7690774632fe32269657fc1a2a0c941c7cd83f3d
 system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|f647356bd3a4bb4174e873e4544c2921d51fd4d2
-system_ext/priv-app/DaxUI/DaxUI.apk|fdf7b8923550006d5ea8456fe790949c707f65eb
+system_ext/priv-app/DaxUI/DaxUI.apk;OVERRIDES=AudioFX,MusicFX,SoundAmplifierPrebuilt|fdf7b8923550006d5ea8456fe790949c707f65eb
 
 # Dolby - from OnePlus 9 Pro LE2121 11.2.10.10
 system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
