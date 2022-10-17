@@ -38,37 +38,37 @@ void vendor_load_properties() {
 
     switch (rf_version) {
         case 11: // CN
-            if (device == "OnePlus9") {
+            if ((device == "OnePlus9") || (device == "lemonade")) {
                 OverrideProperty("ro.product.product.model", "LE2110");
-            } else if (device == "OnePlus9Pro") {
+            } else if ((device == "OnePlus9Pro") || (device == "lemonadep")) {
                 OverrideProperty("ro.product.product.model", "LE2120");
             }
             break;
         case 12: // TMO
-            if (device == "OnePlus9") {
+            if ((device == "OnePlus9") || (device == "lemonade")) {
                 OverrideProperty("ro.product.product.model", "LE2117");
-            } else if (device == "OnePlus9Pro") {
+            } else if ((device == "OnePlus9Pro") || (device == "lemonadep")) {
                 OverrideProperty("ro.product.product.model", "LE2127");
             }
             break;
         case 13: // IN
-            if (device == "OnePlus9") {
+            if ((device == "OnePlus9") || (device == "lemonade")) {
                 OverrideProperty("ro.product.product.model", "LE2111");
-            } else if (device == "OnePlus9Pro") {
+            } else if ((device == "OnePlus9Pro") || (device == "lemonadep")) {
                 OverrideProperty("ro.product.product.model", "LE2121");
             }
             break;
         case 21: // EU
-            if (device == "OnePlus9") {
+            if ((device == "OnePlus9") || (device == "lemonade")) {
                 OverrideProperty("ro.product.product.model", "LE2113");
-            } else if (device == "OnePlus9Pro") {
+            } else if ((device == "OnePlus9Pro") || (device == "lemonadep")) {
                 OverrideProperty("ro.product.product.model", "LE2123");
             }
             break;
         case 22: // NA
-            if (device == "OnePlus9") {
+            if ((device == "OnePlus9") || (device == "lemonade")) {
                 OverrideProperty("ro.product.product.model", "LE2115");
-            } else if (device == "OnePlus9Pro") {
+            } else if ((device == "OnePlus9Pro") || (device == "lemonadep")) {
                 OverrideProperty("ro.product.product.model", "LE2125");
             }
             break;
