@@ -1,0 +1,1 @@
+allow hal_audio_default hal_performance_hwservice:hwservice_manager find;

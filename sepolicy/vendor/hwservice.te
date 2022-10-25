@@ -1,8 +1,17 @@
 # Camera
 type vendor_hal_camera_extension_hwservice, hwservice_manager_type, protected_hwservice;
 
+# CWB
+type hal_cwb_hwservice, hwservice_manager_type, protected_hwservice;
+
 # ORMS
 type vendor_hal_orms_hwservice, hwservice_manager_type, protected_hwservice;
+
+# Osense
+type hal_osense_client_hwservice, hwservice_manager_type, protected_hwservice;
+
+# Performance
+type hal_performance_hwservice, hwservice_manager_type, protected_hwservice;
 
 # Sensors
 type vendor_hal_oplusSensor_hwservice, hwservice_manager_type, protected_hwservice;
