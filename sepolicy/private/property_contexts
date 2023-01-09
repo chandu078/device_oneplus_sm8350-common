@@ -14,6 +14,7 @@ ro.camera.res.                                        u:object_r:exported_system
 ro.camera.req.                                        u:object_r:exported_system_prop:s0
 ro.oppo.                                              u:object_r:exported_system_prop:s0
 ro.oplus.                                             u:object_r:exported_system_prop:s0
+ro.vendor.oplus.                                      u:object_r:exported_system_prop:s0
 ro.vendor.gfx.                                        u:object_r:exported_system_prop:s0
 sys.oppo_ftm_mode                                     u:object_r:exported_system_prop:s0
 vendor.aps.                                           u:object_r:exported_system_prop:s0
