@@ -1,1 +1,5 @@
 allow init adsprpcd_file:file mounton;
+
+allow init debugfs_tracing_debug:dir mounton;
+
+allow init vendor_sysfs_scsi_host:file w_file_perms;

@@ -1,3 +1,7 @@
+allow vendor_wcnss_service init:unix_stream_socket connectto;
+
+allow vendor_wcnss_service property_socket:sock_file write;
+
 create_dir_file(vendor_wcnss_service, mnt_vendor_file)
 
 set_prop(vendor_wcnss_service, vendor_vold_prop)

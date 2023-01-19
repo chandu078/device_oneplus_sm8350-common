@@ -12,6 +12,9 @@ vendor.pixelworks.hardware.feature::IIrisFeature                                
 # Dolby
 vendor.dolby.hardware.dms::IDms                                                                   u:object_r:vendor_hal_dms_hwservice:s0
 
+# Diag
+vendor.qti.diaghal::Idiag                                                                         u:object_r:hal_diag_hwservice:s0
+
 # Fingerprint
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint                              u:object_r:hal_fingerprint_hwservice:s0
 vendor.oplus.hardware.commondcs::ICommonDcsHalService                                             u:object_r:hal_fingerprint_hwservice:s0

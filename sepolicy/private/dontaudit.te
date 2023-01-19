@@ -1,0 +1,5 @@
+dontaudit fsck self:capability kill;
+
+dontaudit linkerconfig self:capability kill;
+
+dontaudit vdc self:capability kill;
