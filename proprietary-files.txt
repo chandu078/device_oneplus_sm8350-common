@@ -626,6 +626,7 @@ odm/etc/camera/model_fdc.data
 odm/etc/camera/settings_fdc_lite.txt
 odm/etc/init/calibrationOutput_uw.rc
 odm/etc/init/calibrationOutput_uw_686.rc
+odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
 odm/lib/libAlgoInterface.so
 odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
@@ -825,6 +826,7 @@ system_ext/lib64/liboplusheifwriter.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/camera.device@3.2-impl.so
 vendor/lib/camera.device@3.3-impl.so
 vendor/lib/camera.device@3.4-external-impl.so
