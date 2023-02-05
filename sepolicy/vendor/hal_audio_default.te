@@ -1,5 +1,5 @@
+allow hal_audio_default hal_performance_hwservice:hwservice_manager find;
+
 hal_client_domain(hal_audio_default, vendor_hal_dms)
-hal_client_domain(hal_audio_default, vendor_hal_oplusPerf)
 
 binder_call(hal_audio_default, vendor_hal_dms_default)
-binder_call(hal_audio_default, vendor_hal_oplusPerf_default)
