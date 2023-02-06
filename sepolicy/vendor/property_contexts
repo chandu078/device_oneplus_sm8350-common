@@ -12,6 +12,9 @@ vendor.fingerprint.                                                    u:object_
 # Modem
 vendor.modem_dump_action                                               u:object_r:vendor_modem_prop:s0
 
+# Media
+vendor.oplus.media.vpp.osie_sr.time                                    u:object_r:vendor_oplus_media_prop:s0
+
 # NFC
 vendor.oplus.nfc.fw.version                                            u:object_r:vendor_nfc_nq_prop:s0
 
