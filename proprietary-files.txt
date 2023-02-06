@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 9 Pro (LE2125_11.F.18).
+## from OnePlus 9 Pro (LE2125_11.F.20).
 
 # ACDBs
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
@@ -814,18 +814,9 @@ odm/lib64/vendor.oplus.hardware.orms@1.0.so
 system/framework/oplus-support-wrapper.jar
 system_ext/lib/libHeifEncoderWrapper.so
 system_ext/lib/libNativeWinBuffExchange.so
-system_ext/lib64/libAPSClient-jni.qti.so
-system_ext/lib64/libAncHumBokeh-jni.qti.so
-system_ext/lib64/libAncHumanDoubleExposure-jni.qti.so
-system_ext/lib64/libAncHumanRetain-jni_v2.qti.so
-system_ext/lib64/libAncHumanSegFigureFusion-jni.qti.so
-system_ext/lib64/libAncHumanVideo-jni.qti.so
-system_ext/lib64/libApsFaceBeautyPreviewJni.qti.so
 system_ext/lib64/libHeifEncoderWrapper.so
 system_ext/lib64/libHeifWinBufExchg-jni.so
 system_ext/lib64/libNativeWinBuffExchange.so
-system_ext/lib64/libOplusBlurPreviewJNI.qti.so
-system_ext/lib64/libjnistblur_api.qti.so
 system_ext/lib64/liboplusheifwriter.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so
