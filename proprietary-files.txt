@@ -822,13 +822,6 @@ system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-external-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-external-impl.so
-vendor/lib/camera.device@3.5-impl.so
-vendor/lib/camera.device@3.6-external-impl.so
 vendor/lib/libcamerapostproc.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
@@ -880,13 +873,6 @@ vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-external-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-external-impl.so
-vendor/lib64/camera.device@3.5-impl.so
-vendor/lib64/camera.device@3.6-external-impl.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -1610,8 +1596,6 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 
 # Media
-odm/etc/media_codecs_c2.xml
-odm/etc/media_codecs_c2_oplus_audio.xml
 odm/lib/libaiboost_qnn_sr.so
 odm/lib/libaiboost_sr.so
 odm/lib/libaiboost_ubwc.so
