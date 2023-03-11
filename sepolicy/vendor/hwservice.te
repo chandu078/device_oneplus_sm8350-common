@@ -1,6 +1,5 @@
 # Camera
 type vendor_hal_camera_extension_hwservice, hwservice_manager_type, protected_hwservice;
-type vendor_hal_midas_hwservice, hwservice_manager_type, protected_hwservice;
 
 # CWB
 type hal_cwb_hwservice, hwservice_manager_type, protected_hwservice;
