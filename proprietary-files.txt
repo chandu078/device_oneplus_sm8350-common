@@ -2074,13 +2074,15 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
+# Touchscreen firmware - from LE2110_11_F.08
+odm/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin|50efe505e78a8b0cac4840af8087df396f1c6965
+odm/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin|d16166aa0c363b9be1f9cc13ad0bd6355b9854ad
+odm/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img|1ac1c7fdfd9a41097c6fb9deb2b1f092c6a241cd
+
 # Touchscreen firmware
 odm/firmware/tp/19815/FW_S3908_SAMSUNG.img
 odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img
 odm/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img
-odm/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin
-odm/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin
-odm/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img
 odm/firmware/tp/20031/FW_S3908_SAMSUNG.img
 odm/firmware/tp/20031/FW_S3908_SAMSUNG_FAE.img
 odm/firmware/tp/20031/LIMIT_S3908_SAMSUNG.img
