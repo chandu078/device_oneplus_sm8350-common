@@ -26,6 +26,7 @@ vendor.nxp.nxpnfc::INxpNfc                                                      
 vendor.oplus.hardware.orms::IOrmsHalProxy                                                         u:object_r:vendor_hal_orms_hwservice:s0
 
 # Osense
+vendor.oplus.hardware.osense.client::IOsenseAidlHalReporter                                       u:object_r:hal_osense_client_hwservice:s0
 vendor.oplus.hardware.osense.client::IOsenseHalReporter                                           u:object_r:hal_osense_client_hwservice:s0
 
 # Performance

@@ -71,6 +71,7 @@
 /(odm|vendor/odm)/lib64/lib_oplus_starburst_capture\.so                                                                              u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/lib_oplus_starburst_preview\.so                                                                              u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libosensehalclient\.so                                                                                       u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/lib64/libosenseaidlhalclient\.so                                                                                   u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libPerfectColor\.so                                                                                          u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libPreviewDecisionOld\.so                                                                                    u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/libPolarrRender\.so                                                                                          u:object_r:same_process_hal_file:s0
@@ -107,6 +108,7 @@
 /(odm|vendor/odm)/lib64/android.hardware.graphics.allocator@4.0\.so                                                                  u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/vendor\.oplus\.hardware\.orms@1\.0\.so                                                                       u:object_r:same_process_hal_file:s0
 /(odm|vendor/odm)/lib64/vendor\.oplus\.hardware\.osense\.client@1\.0\.so                                                             u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/lib64/vendor\.oplus\.hardware\.osense\.client-V1-ndk_platform\.so                                                  u:object_r:same_process_hal_file:s0
 /sys/kernel/tof_control(/.*)?                                                                                                        u:object_r:vendor_sysfs_tof:s0
 /sys/kernel/ois_control/dump_registers                                                                                               u:object_r:vendor_sysfs_tof:s0
 /(vendor|odm)/lib(64)?/rfsa/adsp(/.*)?                                                                                               u:object_r:same_process_hal_file:s0
