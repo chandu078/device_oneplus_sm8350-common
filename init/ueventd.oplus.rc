@@ -7,5 +7,8 @@
 # Reserve
 /dev/block/bootdevice/by-name/oplusreserve1    0660    root    system
 
+# Explorer project
+/dev/explorer_preisp                           0660   cameraserver   camera
+
 # WiFi
 firmware_directories /odm/etc/wifi/
