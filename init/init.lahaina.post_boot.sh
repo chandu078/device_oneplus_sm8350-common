@@ -26,6 +26,7 @@ echo 0-3 > /dev/cpuset/system-background/cpus
 echo 0-3 > /dev/cpuset/restricted/cpus
 echo 0-6 > /dev/cpuset/foreground/cpus
 echo 0-3 > /dev/cpuset/audio-app/cpus
+echo 4-6 > /dev/cpuset/display/cpus
 
 # Setup runtime schedTune
 echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
