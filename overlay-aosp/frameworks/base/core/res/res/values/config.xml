@@ -44,4 +44,8 @@
     <!-- Whether to enable BurnInProtection in ambient mode -->
     <bool name="config_enableBurnInProtection">true</bool>
 
+    <!-- Allow the gesture power + volume up to change the ringer mode while the device
+         is interactive. -->
+    <bool name="config_volumeHushGestureEnabled">false</bool>
+
 </resources>
