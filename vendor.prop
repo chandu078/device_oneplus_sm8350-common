@@ -97,6 +97,7 @@ persist.vendor.dpm.idletimer.mode=default
 persist.vendor.dpmhalservice.enable=1
 
 # Display
+persist.sys.sf.native_mode=258
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
