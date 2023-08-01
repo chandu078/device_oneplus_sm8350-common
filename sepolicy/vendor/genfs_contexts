@@ -12,8 +12,6 @@ genfscon proc /touchpanel                                                       
 genfscon sysfs /kernel/oplus_display                                                                                                      u:object_r:vendor_sysfs_graphics:s0
 
 # Extcon
-genfscon sysfs /devices/platform/soc/88e0000.qcom,msm-eud/extcon                                                                          u:object_r:sysfs_extcon:s0
-genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon                                                                         u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/extcon                                  u:object_r:sysfs_extcon:s0
 
 # Fingerprint
@@ -38,7 +36,6 @@ genfscon sysfs /devices/platform/soc/17300000.qcom,lpass/subsys6/wakeup u:object
 genfscon sysfs /devices/platform/soc/17300000.qcom,lpass/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/188101c.qcom,spss/subsys5/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/188101c.qcom,spss/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/1e00000.qcom,ipa/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/4080000.qcom,mss/subsys8/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/5c00000.qcom,ssc/subsys7/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/5c00000.qcom,ssc/wakeup u:object_r:sysfs_wakeup:s0
